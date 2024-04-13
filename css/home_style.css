@@ -39,10 +39,10 @@ body {
   color: white;
   text-decoration: none;
   padding: 14px 20px;
-  display: table; /* Adiciona flexbox para centralizar o conteúdo verticalmente */
+  display: flex; /* Adiciona flexbox para centralizar o conteúdo verticalmente */
   align-items: center; /* Centraliza o conteúdo verticalmente */
   height: 100%; /* Garante que a altura dos links seja igual à do item da lista */
-  text-transform: ;
+  text-align: center;
 }
 
 .nav-item a:hover {
