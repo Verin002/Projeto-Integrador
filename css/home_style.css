@@ -15,16 +15,17 @@ body {
 
 .nav-logo img {
   vertical-align: middle;
+  padding-left: 20px;
 }
 
 .navbar-title {
   color: white;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
-.navbar-cabeca {
+.navbar-topicos {
   list-style: none;
-  margin: 0;
+  margin:0;
   padding: 0;
   display: flex;
 
@@ -33,13 +34,13 @@ body {
 }
 
 .nav-item {
-  padding: 0 10px;
+  padding: 0 0px;
 }
 
 .nav-item a {
   color: white;
   text-decoration: none;
-  padding: 14px 20px;
+  padding: 14px 5px;
   display: flex;
   /* Adiciona flexbox para centralizar o conteúdo verticalmente */
   align-items: center;
