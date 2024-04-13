@@ -1,0 +1,57 @@
+
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-logo img {
+  vertical-align: middle;
+}
+
+.navbar-title {
+  color: white;
+  margin-left: 10px;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Garante que todos os elementos da lista estejam alinhados verticalmente */
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: table; /* Adiciona flexbox para centralizar o conteúdo verticalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100%; /* Garante que a altura dos links seja igual à do item da lista */
+  text-transform: ;
+}
+
+.nav-item a:hover {
+  background-color: #555;
+}
+
+.divider {
+  color: white;
+  padding: 14px 10px;
+  display: flex;
+  align-items: center; /* Centraliza o divisor verticalmente */
+}
